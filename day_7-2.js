@@ -4,7 +4,7 @@ function regexVar() {
      * It must match a string that starts with 'Mr.', 'Mrs.', 'Ms.', 'Dr.', or 'Er.', 
      * followed by one or more letters.
      */
-    let exp = /^(Mr|Mrs|Ms|Dr|Er)\.\w+$/
+    let exp = /^(Mr|Mrs|Ms|Dr|Er)\.\w+$/;
     const re = new RegExp(exp);
     
     /*
